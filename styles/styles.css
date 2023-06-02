@@ -1,0 +1,72 @@
+/* STYLES */
+
+/* Headers tienen que seguir iguales en todas las paginas */
+
+.headers{
+    width: 100vw;
+    background-color: bisque;
+    height: 250px;
+}
+
+/* Footers tienen que seguir iguales en todas las paginas*/
+
+.footers{
+    background-color: beige;
+    width: 100%;
+    flex-direction: row;
+}
+
+.contenedorNombres{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: baseline;
+    max-width: 100vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.nombresAlumnos{
+    font-size: 16px;
+}
+
+/* Buscador */
+
+.buscador{
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin-top: 2.5vh;
+    width: 225px;
+}
+
+.buscadorheader {
+    width: 225px;
+    
+}
+
+
+/* Loader */
+#loader {
+    display: none;
+    border: 16px solid #4CAF50; /* Cambia el color a verde (#4CAF50) */
+    border-top: 16px solid transparent; /* Utiliza un color transparente para la parte superior del loader */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite; /* Modifica la duración de la animación a 1 segundo */
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+  @media screen {
+    
+  }
+
+  
