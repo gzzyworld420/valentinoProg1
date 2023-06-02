@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Es importante utilizar la codificación UTF-8, ya que te permite mostrar correctamente caracteres especiales, acentos, símbolos y caracteres de diferentes idiomas en tu página web. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- si el usuario está utilizando una versión anterior de Internet Explorer, esta etiqueta asegura que el navegador renderice el documento con la versión más actualizada de compatibilidad. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--se utiliza para controlar cómo se visualiza y se ajusta el contenido en dispositivos móviles
+    El atributo name="viewport" especifica que estamos configurando las propiedades de la ventana de visualización del navegador. -->
+    <title>Valentino Web Programacion 1</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- RUTA ABSOLUTA -->
+
+    <!-- FONT AWESOME -->
+    <!-- Una biblioteca es un archivo o conjunto de archivos que contiene código fuente o compilado que proporciona una funcionalidad específica y reutilizable para facilitar el desarrollo de aplicaciones. -->
+    <script src="https://kit.fontawesome.com/7823139b18.js" crossorigin="anonymous"></script>
+    <!-- RUTA RELATIVA -->
+</head>
+
+
+
+<body class="bodyHome">
+    <!--  Camel Case = bodyHome-->
+    <!-- Snake_Case = body_home -->
+
+    <!-- HEADER -->
+    <header class="headers">
+
+        <div class="contenedorHeaders">
+
+            <nav class="paginas">
+                <a href="./genres.html" class="paginasDiv"> Generos</a>
+                <a href="./playlist.html" class="paginasDiv"> Playlist</a>
+            </nav>
+
+            <a href="./index.html" class="logo">
+                <img src="./img/" alt="" class="logo">
+            </a>
+
+            <!-- Buscador -->
+
+            <div class="buscadorHeader">
+                <form action="./searchResults.html" class="buscador" method="GET">
+                    <input id="" type="text" name="buscador" placeholder="buscar">
+                    <div>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </form>
+            </div>
+            <!-- <p class="usuario">
+                Bienvenido usuario
+            </p> -->
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="mainHome">
+        <!-- CANCIONES -->
+        <div class="tituloSeccionPadreCentrar">
+            <div class="tituloSeccionPadreCanciones">
+                <h3 class="tituloSeccion tituloSeccionTop">
+                    Canciones
+                </h3>
+            </div>
+        </div>
+
+        <section>
+            <article class="contenedorDiscos">
+            </article>
+        </section>
+
+        <!-- DISCOS -->
+        <section>
+            <div class="tituloSeccionPadreCentrar">
+                <div class="tituloSeccionPadreDiscos">
+                    <h3 class="tituloSeccion tituloSeccionTop">
+                        Discos/Albumes
+                    </h3>
+                </div>
+            </div>
+            <article class="contenedorAlbumes">
+            </article>
+        </section>
+
+        <!-- BANDAS -->
+        <section>
+            <div class="tituloSeccionPadreCentrar">
+                <div class="tituloSeccionPadreArtista">
+                    <h3 class="tituloSeccion tituloSeccionTop">
+                        Bandas/Artistas
+                    </h3>
+                </div>
+            </div>
+            <article class="contenedorAlbumes2">
+            </article>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footers">
+        <div class="contenedorNombres">
+            <h5 class="nombresAlumnos">
+                Valentino Gabay
+            </h5>
+            <h5 class="nombresAlumnos">
+                Santino Cappello
+            </h5>
+        </div>
+    </footer>
+
+    <!-- JS -->
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
